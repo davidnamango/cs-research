@@ -1,0 +1,28 @@
+﻿How to start up a Django Project Quickly
+
+
+1. Install Python (Download from https://www.python.org/)
+2. Create a virtual environment:
+   1. python3 -m venv <envName>
+3. Activate the environment:
+   1. source path/to/<envName>/bin/activate
+4. Install Django:
+   1. pip install django
+5. Create a project:
+   1. django-admin startproject mysite
+
+
+Running the Development Server
+
+
+* In your project directory run: python manage.py runserver
+* Go to: 127.0.0.1:8000 in your web browser to see your site
+
+
+Creating an app
+
+
+* In your project directory run: python manage.py startapp <appName>
+
+
+For more detailed instructions view: https://docs.djangoproject.com/en/3.1/intro/tutorial01/
